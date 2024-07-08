@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="containerPadre">
+        <h1>Todo List</h1>
+        <hr>
+
+        <div>
+            <h3>Nueva Tarea</h3>
+            <div class="areaAgregar">
+                <input type="text" id="nuevaTarea" placeholder="Ingrese tarea"> <!-- Aquí se ingresa el texto de la tarea-->
+                <button id="btn-agregar" onclick="agregarTarea()">Agregar</button> <!--al hacer click en el botón agregar, se llama a la tarea agregarTarea-->
+                <p id="invalido"></p> <!--texto en caso de que se ingrese texto vacío-->
+            </div>
+        </div>
+
+        <div class="containerDatos"> <!--Aquí se muestra el total de tareas y las realizadas-->
+           <div class="cantidades">
+                <h3>Cantidades</h3>
+                <h4 id="total"></h4>
+                <h4 id="realizadas"></h4>
+           </div> 
+
+           <div class="detalles"><!--Aquí se muestran las tareas con su ID, descripción, estado, opc borrar-->
+                <div class="titulos">
+                    <h4>ID</h4>
+                    <h4>Tarea</h4>
+                </div>
+                <div id="tareas">
+                    
+                </div>
+           </div>
+
+        </div>
+
+    </div>
+
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>

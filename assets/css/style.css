@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: blanchedalmond;
+}
+
+.containerPadre{
+    margin: 50px;
+    padding: 20px;
+}
+
+#btn-agregar{
+    background-color: forestgreen;
+    color: white;
+    width: 70px;
+    height: 25px;
+    border-radius: 8px;
+}
+
+.containerDatos{
+    display: flex;
+    gap: 30px;
+}
+
+#invalido{
+    padding-left: 15px;
+}
+
+.titulos{
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+
+.areaAgregar{
+    display: flex;
+}
+
+.detalles{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-elimina{
+    background-color: red;
+    color: white;
+}
+.presentacion{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.textID{
+    width: 40px;
+}
+
+.textDescripcion{
+    width: 400px;
+}
+
+.textChecked{
+    width: 30px;
+}
+
+.textEliminar{
+    width: 30px;
+}
